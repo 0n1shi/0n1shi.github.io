@@ -17,3 +17,5 @@ SAKURA Internet Inc.
 
 # Slides
 
+- [プロセスとコンテキストスイッチ](https://www.slideshare.net/ssuserc2d4c1/ss-124497965)
+- [ラズパイでデバイスドライバを作ってみた。](https://www.slideshare.net/ssuserc2d4c1/ss-124497785)
