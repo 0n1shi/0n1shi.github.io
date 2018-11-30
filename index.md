@@ -4,7 +4,7 @@
 
 # Organization
 
-SAKURA Internet Inc.
+[SAKURA Internet Inc.](https://www.sakura.ad.jp/)
 
 # SNS
 
