@@ -13,7 +13,10 @@
 - [Qiita](https://qiita.com/k-onishi/)
 - [Github](https://github.com/k-onishi/)
 
-# Talk
+# Talks
+
+- [Linux Kernel勉強会　2018年12月分](https://linux-kernel.connpass.com/event/106728/)
+- [Linux Kernel勉強会　2018年7月分](https://linux-kernel.connpass.com/event/92896/)
 
 # Slides
 
