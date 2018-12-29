@@ -9,7 +9,7 @@
 # SNS
 
 - [Twitter](https://twitter.com/_k_onishi_)
-- [Blog](https://k-onishi.hatenablog.jp/)
+- [Blog(Hatena)](https://k-onishi.hatenablog.jp/)
 - [Qiita](https://qiita.com/k-onishi/)
 - [Github](https://github.com/k-onishi/)
 
