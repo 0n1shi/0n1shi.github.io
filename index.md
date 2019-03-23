@@ -17,6 +17,7 @@
 
 - [Linux Kernel勉強会　2018年12月分](https://linux-kernel.connpass.com/event/106728/)
 - [Linux Kernel勉強会　2018年7月分](https://linux-kernel.connpass.com/event/92896/)
+- [Hosting Casual Talks #5](https://connpass.com/event/120048/)
 
 # Slides
 
