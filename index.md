@@ -24,3 +24,4 @@
 - [プロセスとコンテキストスイッチ](https://www.slideshare.net/ssuserc2d4c1/ss-124497965)
 - [ラズパイでデバイスドライバを作ってみた。](https://www.slideshare.net/ssuserc2d4c1/ss-124497785)
 - [カーネルから見るOCIランタイム](https://speakerdeck.com/kazuki_onishi)
+- [コンテナの実現とその実装](https://speakerdeck.com/kazuki_onishi/kontenafalseshi-xian-tosofalseshi-zhuang)
