@@ -6,7 +6,7 @@
 
 [SAKURA Internet Inc.](https://www.sakura.ad.jp/)
 
-# Certification
+# Certifications
 
 - TOEIC 860
 - 実用英語技能検定 準一級
