@@ -17,9 +17,9 @@
 
 # SNS
 
-- [Twitter](https://twitter.com/_kazu_onis_)
+- [Twitter](https://twitter.com/0n1shi)
 - [Blog(Hatena)](https://k-onishi.hatenablog.jp/)
-- [Github](https://github.com/kazu-onis)
+- [Github](https://github.com/0n1shi)
 
 # Talks
 
