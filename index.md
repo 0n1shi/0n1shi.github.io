@@ -45,3 +45,6 @@
 - [GPIO Driver for Raspberry Pi](https://github.com/0n1shi/gpio-driver)
 - [VGA Driver for bare metal](https://gist.github.com/0n1shi/24b945209bf97051fe36955b80e9f91a)
 - [MIP 1 emulator written in Golang](https://github.com/0n1shi/mipsemu)
+- [MIPS architecture processor on Intel FPGA for learning.](https://github.com/0n1shi/fpga-mips)
+
+- [Hosting Casual Talks #5](https://connpass.com/event/120048/)
