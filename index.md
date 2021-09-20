@@ -28,6 +28,7 @@
 - [Hosting Casual Talks #5](https://connpass.com/event/120048/)
 - [Kyoto.なんか #5](https://kyoto-nanka.connpass.com/event/141982/)
 - [さくらの夕べ ヤンジェネバトル](https://sakura-tokyo.connpass.com/event/146504/)
+- [Hacobuneオープンβ版提供開始発表会](https://speakerdeck.com/hacobune/hacobunefalsegoshao-jie)
 
 # Slides
 
