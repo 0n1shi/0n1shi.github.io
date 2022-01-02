@@ -1,5 +1,3 @@
-# Profile
-
 ## Name
 
 大西 和貴(Kazuki Onishi)
