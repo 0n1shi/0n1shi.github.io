@@ -21,8 +21,10 @@
 ## SNS
 
 - [Twitter](https://twitter.com/0n1shi)
-- [Blog(Hatena)](https://k-onishi.hatenablog.jp/)
+- [Blog(Hatena)](https://0n1shi.hatenablog.jp)
 - [Github](https://github.com/0n1shi)
+- [Speaker Deck](https://speakerdeck.com/0n1shi)
+- [Zenn](https://zenn.dev/0n1shi)
 
 ## Talks
 
