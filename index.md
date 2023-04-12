@@ -5,7 +5,7 @@
 ## Organization
 
 - [さくらインターネット株式会社](https://www.sakura.ad.jp/) (2017/04/01 ~ 2021/12/31)
-- [株式会社イエラエセキュリティ](https://ierae.co.jp/) (2022/01/01 ~ )
+- [GMOサイバーセキュリティ byイエラエ](https://gmo-cybersecurity.com/) (2022/01/01 ~ )
 
 ## Certifications
 
