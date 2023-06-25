@@ -1,10 +1,13 @@
 import React from "react";
 import {
   Box,
-  Divider,
   IconButton,
   Typography,
-  DividerProps,
+  Table,
+  TableRow,
+  TableCell,
+  TableCellProps,
+  TableBody,
 } from "@mui/material";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -19,10 +22,9 @@ const theme = createTheme({
   },
 });
 
-const CustomDivider = styled(Divider)<DividerProps>(({ theme }) => ({
-  width: "60%",
-  marginTop: 10,
-  marginBottom: 10,
+const CustomTableCell = styled(TableCell)<TableCellProps>(({ theme }) => ({
+  borderBottom: "none",
+  padding: 0,
 }));
 
 function App() {
@@ -44,10 +46,10 @@ function App() {
             alignItems: "center",
           }}
         >
-          <IconButton href="https://twitter.com/0n1shi">
+          <IconButton href="https://twitter.com/0n1shi" target="_blank">
             <TwitterIcon />
           </IconButton>
-          <IconButton>
+          <IconButton href="https://github.com/0n1shi" target="_blank">
             <GitHubIcon />
           </IconButton>
           <IconButton>
@@ -55,15 +57,37 @@ function App() {
           </IconButton>
         </Box>
         <Typography variant="body2">
-          Software developer. I love 📚 🍔 🎮.
-        </Typography>
-        <CustomDivider />
-        <Typography variant="body2">
-          2017/04 ~ 2021/12: さくらインターネット株式会社
+          I am a software developer. I love 💻 📚 🍔 🎮.
         </Typography>
         <Typography variant="body2">
-          2022/01 ~ now: GMOサイバーセキュリティ byイエラエ株式会社
+          Linux / OS / CPU / File System / Security
         </Typography>
+        <Table sx={{ maxWidth: 440, marginTop: 1 }}>
+          <TableBody>
+            <TableRow>
+              <CustomTableCell>2017/04 ~ 2021/12</CustomTableCell>
+              <CustomTableCell>: さくらインターネット株式会社</CustomTableCell>
+            </TableRow>
+            <TableRow>
+              <CustomTableCell>2022/01 ~ </CustomTableCell>
+              <CustomTableCell>
+                : GMOサイバーセキュリティ byイエラエ株式会社
+              </CustomTableCell>
+            </TableRow>
+          </TableBody>
+        </Table>
+        <Table sx={{ maxWidth: 440, marginTop: 1 }}>
+          <TableBody>
+            <TableRow>
+              <CustomTableCell>: さくらインターネット株式会社</CustomTableCell>
+            </TableRow>
+            <TableRow>
+              <CustomTableCell>
+                : GMOサイバーセキュリティ byイエラエ株式会社
+              </CustomTableCell>
+            </TableRow>
+          </TableBody>
+        </Table>
       </Box>
     </ThemeProvider>
   );
