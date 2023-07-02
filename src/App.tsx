@@ -133,7 +133,7 @@ function App (): React.ReactElement {
         <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
           <TableHead>
             <TableRow>
-              <CustomTableCell>Certifications</CustomTableCell>
+              <CustomTableCell>✅Certifications</CustomTableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -147,7 +147,7 @@ function App (): React.ReactElement {
         <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
           <TableHead>
             <TableRow>
-              <CustomTableCell>Talks</CustomTableCell>
+              <CustomTableCell>💬Talks</CustomTableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -161,7 +161,7 @@ function App (): React.ReactElement {
         <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
           <TableHead>
             <TableRow>
-              <CustomTableCell>Slides</CustomTableCell>
+              <CustomTableCell>📝Slides</CustomTableCell>
             </TableRow>
           </TableHead>
           <TableBody>
@@ -175,7 +175,7 @@ function App (): React.ReactElement {
         <Table sx={{ maxWidth: 440 }}>
           <TableHead>
             <TableRow>
-              <CustomTableCell>Softwares</CustomTableCell>
+              <CustomTableCell>💻Softwares</CustomTableCell>
             </TableRow>
           </TableHead>
           <TableBody>
