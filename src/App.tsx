@@ -33,6 +33,15 @@ const CustomLink = styled(Link)<LinkProps>(({ theme }) => ({
   }
 }))
 
+const favoriteTechs: string[] = [
+  'Linux',
+  'OS',
+  'CPU',
+  'File System',
+  'Security',
+  'Vim'
+]
+
 const links = [
   {
     icon: <TwitterIcon sx={{ color: '#1DA1F2;' }} />,
@@ -192,7 +201,7 @@ function App (): React.ReactElement {
         I love 💻 📚 🍔 🎮.
       </Typography>
       <Typography variant="body2" sx={{ marginBottom: 2 }}>
-        Linux / OS / CPU / File System / Security / Vim
+        {favoriteTechs.join(' / ')}
       </Typography>
       <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
         <TableBody>
