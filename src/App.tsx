@@ -16,15 +16,7 @@ import {
 import TwitterIcon from '@mui/icons-material/Twitter'
 import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
-import { createTheme, ThemeProvider } from '@mui/material/styles'
-import './App.css'
 import styled from '@emotion/styled'
-
-const theme = createTheme({
-  typography: {
-    fontFamily: ['PixelMplus'].join(',')
-  }
-})
 
 const CustomTableCell = styled(TableCell)<TableCellProps>(({ theme }) => ({
   borderBottom: 'none',
@@ -166,126 +158,124 @@ const softwares = [
 
 function App (): React.ReactElement {
   return (
-    <ThemeProvider theme={theme}>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}
+    >
+      <Avatar
+        src="/images/icon.jpeg"
+        sx={{ width: 100, height: 100, marginBottom: 1 }}
+      />
+      <Typography variant="h4">Kazuki Onishi</Typography>
       <Box
         sx={{
           display: 'flex',
-          flexDirection: 'column',
           justifyContent: 'center',
-          alignItems: 'center'
+          alignItems: 'center',
+          marginBottom: 1
         }}
       >
-        <Avatar
-          src="/images/icon.jpeg"
-          sx={{ width: 100, height: 100, marginBottom: 1 }}
-        />
-        <Typography variant="h4">Kazuki Onishi</Typography>
-        <Box
-          sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            marginBottom: 1
-          }}
-        >
-          {links.map(({ icon, link }) => (
-            <IconButton href={link} key={link} target="_blank">
-              {icon}
-            </IconButton>
-          ))}
-        </Box>
-        <Typography variant="body2">
-          I am a software developer in Kyoto, Japan.
-        </Typography>
-        <Typography variant="body2" sx={{ marginBottom: 1 }}>
-          I love 💻 📚 🍔 🎮.
-        </Typography>
-        <Typography variant="body2" sx={{ marginBottom: 2 }}>
-          Linux / OS / CPU / File System / Security
-        </Typography>
-        <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
-          <TableBody>
-            {affiliations.map(({ period, name }) => (
-              <TableRow key={name}>
-                <CustomTableCell>{period}</CustomTableCell>
-                <CustomTableCell>: {name}</CustomTableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-        <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
-          <TableHead>
-            <TableRow>
-              <CustomTableCell>✅Certifications</CustomTableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {certifications.map((cert) => (
-              <TableRow key={cert}>
-                <CustomTableCell>・{cert}</CustomTableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-        <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
-          <TableHead>
-            <TableRow>
-              <CustomTableCell>💬Talks</CustomTableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {talks.map((talk) => (
-              <TableRow key={talk.title}>
-                <CustomTableCell>
-                  <CustomLink href={talk.link} target="_blank">
-                    ・{talk.title}{' '}
-                    <OpenInNewIcon sx={{ width: 13, height: 13 }} />
-                  </CustomLink>
-                </CustomTableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-        <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
-          <TableHead>
-            <TableRow>
-              <CustomTableCell>📝Slides</CustomTableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {slides.map((slide) => (
-              <TableRow key={slide.title}>
-                <CustomTableCell>
-                  <CustomLink href={slide.link} target="_blank">
-                    ・{slide.title}{' '}
-                    <OpenInNewIcon sx={{ width: 13, height: 13 }} />
-                  </CustomLink>
-                </CustomTableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
-        <Table sx={{ maxWidth: 440 }}>
-          <TableHead>
-            <TableRow>
-              <CustomTableCell>💻Softwares</CustomTableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {softwares.map((software) => (
-              <TableRow key={software.title}>
-                <CustomTableCell>
-                  <CustomLink href={software.link} target="_blank">
-                    ・{software.title}{' '}
-                    <OpenInNewIcon sx={{ width: 13, height: 13 }} />
-                  </CustomLink>
-                </CustomTableCell>
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
+        {links.map(({ icon, link }) => (
+          <IconButton href={link} key={link} target="_blank">
+            {icon}
+          </IconButton>
+        ))}
       </Box>
-    </ThemeProvider>
+      <Typography variant="body2">
+        I am a software developer in Kyoto, Japan.
+      </Typography>
+      <Typography variant="body2" sx={{ marginBottom: 1 }}>
+        I love 💻 📚 🍔 🎮.
+      </Typography>
+      <Typography variant="body2" sx={{ marginBottom: 2 }}>
+        Linux / OS / CPU / File System / Security / Vim
+      </Typography>
+      <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
+        <TableBody>
+          {affiliations.map(({ period, name }) => (
+            <TableRow key={name}>
+              <CustomTableCell>{period}</CustomTableCell>
+              <CustomTableCell>: {name}</CustomTableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+      <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
+        <TableHead>
+          <TableRow>
+            <CustomTableCell>✅Certifications</CustomTableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {certifications.map((cert) => (
+            <TableRow key={cert}>
+              <CustomTableCell>・{cert}</CustomTableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+      <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
+        <TableHead>
+          <TableRow>
+            <CustomTableCell>💬Talks</CustomTableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {talks.map((talk) => (
+            <TableRow key={talk.title}>
+              <CustomTableCell>
+                <CustomLink href={talk.link} target="_blank">
+                  ・{talk.title}{' '}
+                  <OpenInNewIcon sx={{ width: 13, height: 13 }} />
+                </CustomLink>
+              </CustomTableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+      <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
+        <TableHead>
+          <TableRow>
+            <CustomTableCell>📝Slides</CustomTableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {slides.map((slide) => (
+            <TableRow key={slide.title}>
+              <CustomTableCell>
+                <CustomLink href={slide.link} target="_blank">
+                  ・{slide.title}{' '}
+                  <OpenInNewIcon sx={{ width: 13, height: 13 }} />
+                </CustomLink>
+              </CustomTableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+      <Table sx={{ maxWidth: 440 }}>
+        <TableHead>
+          <TableRow>
+            <CustomTableCell>💻Softwares</CustomTableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {softwares.map((software) => (
+            <TableRow key={software.title}>
+              <CustomTableCell>
+                <CustomLink href={software.link} target="_blank">
+                  ・{software.title}{' '}
+                  <OpenInNewIcon sx={{ width: 13, height: 13 }} />
+                </CustomLink>
+              </CustomTableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+    </Box>
   )
 }
 
