@@ -109,6 +109,10 @@ const talks = [
   {
     title: 'Hacobuneオープンβ版提供開始発表会',
     link: 'https://speakerdeck.com/hacobune/hacobunefalsegoshao-jie'
+  },
+  {
+    title: 'GMOサイバー攻撃ネットde診断で1万ドメインを診断してみた - よく見つかるリスクが大きい脆弱性とドメイン管理のポイント -',
+    link: 'https://gmo-cybersecurity.com/event/ieraedays23/'
   }
 ]
 const slides = [
@@ -135,10 +139,6 @@ const slides = [
   {
     title: 'コンテナエンジンの作り方 ~ さくらの夕べ ヤンジェネバトル ~',
     link: 'https://speakerdeck.com/0n1shi/kontenaenzinfalsezuo-rifang-sakurafalsexi-be-yanzienebatoru'
-  },
-  {
-    title: 'GMOサイバー攻撃ネットde診断で1万ドメインを診断してみた - よく見つかるリスクが大きい脆弱性とドメイン管理のポイント -',
-    link: 'https://gmo-cybersecurity.com/event/ieraedays23/'
   }
 ]
 
