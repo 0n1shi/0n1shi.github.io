@@ -135,6 +135,10 @@ const slides = [
   {
     title: 'コンテナエンジンの作り方 ~ さくらの夕べ ヤンジェネバトル ~',
     link: 'https://speakerdeck.com/0n1shi/kontenaenzinfalsezuo-rifang-sakurafalsexi-be-yanzienebatoru'
+  },
+  {
+    title: 'GMOサイバー攻撃ネットde診断で1万ドメインを診断してみた - よく見つかるリスクが大きい脆弱性とドメイン管理のポイント -',
+    link: 'https://gmo-cybersecurity.com/event/ieraedays23/'
   }
 ]
 
