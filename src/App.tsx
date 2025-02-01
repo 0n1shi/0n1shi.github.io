@@ -18,13 +18,13 @@ import GitHubIcon from '@mui/icons-material/GitHub'
 import OpenInNewIcon from '@mui/icons-material/OpenInNew'
 import styled from '@emotion/styled'
 
-const CustomTableCell = styled(TableCell)<TableCellProps>(({ theme }) => ({
+const CustomTableCell = styled(TableCell)<TableCellProps>(() => ({
   borderBottom: 'none',
   padding: 0,
   minWidth: 120
 }))
 
-const CustomLink = styled(Link)<LinkProps>(({ theme }) => ({
+const CustomLink = styled(Link)<LinkProps>(() => ({
   textDecorationColor: '#000',
   textDecoration: 'none',
   color: '#000',
@@ -75,6 +75,16 @@ const links = [
 const affiliations = [
   { period: '2017/04 ~ 2021/12', name: 'さくらインターネット株式会社' },
   { period: '2022/01 ~ ', name: 'GMOサイバーセキュリティ byイエラエ株式会社' }
+]
+const techStacks = [
+  { items: ['Golang', 'Python', 'TypeScript', 'PHP'] },
+  { items: ['React', 'FastAPI', 'Gin', 'Laravel'] },
+  { items: ['MySQL', 'PostgreSQL', 'Redis'] },
+  { items: ['Docker', 'AWS', 'GCP', 'Kubernetes', 'Terraform', 'Ansible', 'CloudFormation'] },
+  { items: ['Git', 'GitHub'] },
+  { items: ['GitHub Actions'] },
+  { items: ['Vim'] },
+  { items: ['Domain Driven Design', 'Microservices', 'TDD', 'Clean Architecture'] }
 ]
 const certifications = [
   'TOEIC 860 点',
@@ -220,7 +230,25 @@ function App (): React.ReactElement {
       <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
         <TableHead>
           <TableRow>
-            <CustomTableCell>✅Certifications</CustomTableCell>
+            <CustomTableCell>🧙技術</CustomTableCell>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {techStacks.map((techStack, i) => (
+            <TableRow key={i}>
+              <CustomTableCell>
+                <Typography variant="body2">
+                  ・{techStack.items.join(' / ')}
+                </Typography>
+              </CustomTableCell>
+            </TableRow>
+          ))}
+        </TableBody>
+      </Table>
+      <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
+        <TableHead>
+          <TableRow>
+            <CustomTableCell>✅資格</CustomTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -234,7 +262,7 @@ function App (): React.ReactElement {
       <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
         <TableHead>
           <TableRow>
-            <CustomTableCell>💬Talks</CustomTableCell>
+            <CustomTableCell>💬発表/登壇</CustomTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
@@ -253,7 +281,7 @@ function App (): React.ReactElement {
       <Table sx={{ maxWidth: 440, marginBottom: 2 }}>
         <TableHead>
           <TableRow>
-            <CustomTableCell>📝Slides</CustomTableCell>
+            <CustomTableCell>📝発表資料</CustomTableCell>
           </TableRow>
         </TableHead>
         <TableBody>
