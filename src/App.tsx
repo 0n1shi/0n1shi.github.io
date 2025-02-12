@@ -34,12 +34,13 @@ const CustomLink = styled(Link)<LinkProps>(() => ({
 }))
 
 const favoriteTechs: string[] = [
+  'Vim',
+  'Security',
   'Linux',
   'OS',
   'CPU',
-  'File System',
-  'Security',
-  'Vim'
+  'Interpreters',
+  'File System'
 ]
 
 const links = [
@@ -77,10 +78,10 @@ const affiliations = [
   { period: '2022/01 ~ ', name: 'GMOサイバーセキュリティ byイエラエ株式会社' }
 ]
 const techStacks = [
-  { items: ['Golang', 'Python', 'TypeScript', 'PHP'] },
-  { items: ['React', 'FastAPI', 'Gin', 'Laravel'] },
+  { items: ['Golang', 'Python', 'TypeScript'] },
+  { items: ['React', 'FastAPI', 'Gin'] },
   { items: ['MySQL', 'PostgreSQL', 'Redis'] },
-  { items: ['Docker', 'AWS', 'GCP', 'Kubernetes', 'Terraform', 'Ansible', 'CloudFormation'] },
+  { items: ['Docker', 'AWS', 'GCP', 'Kubernetes', 'Terraform', 'Ansible'] },
   { items: ['Git', 'GitHub'] },
   { items: ['GitHub Actions'] },
   { items: ['Vim'] },
