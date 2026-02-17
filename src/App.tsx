@@ -194,7 +194,7 @@ function App (): React.ReactElement {
         src="/images/icon.jpeg"
         sx={{ width: 100, height: 100, marginBottom: 1 }}
       />
-      <Typography variant="h4">Kazuki Onishi</Typography>
+      <Typography variant="h4">Kazuki ONISHI</Typography>
       <Box
         sx={{
           display: 'flex',
