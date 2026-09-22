@@ -94,7 +94,8 @@ const certifications = [
   '応用情報技術者試験 合格',
   '情報セキュリティスペシャリスト試験 合格',
   'Oracle Certified Java Programmer, Gold SE 7',
-  'AWS Certified Solutions Architect – Professional'
+  'AWS Certified Solutions Architect – Professional',
+  'PMP®（Project Management Professional）'
 ]
 const talks = [
   {
