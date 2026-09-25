@@ -88,14 +88,14 @@ const techStacks = [
   { items: ['Domain Driven Design', 'Microservices', 'TDD', 'Clean Architecture'] }
 ]
 const certifications = [
-  'TOEIC 860 点',
-  '実用英語技能検定 準一級',
   '基本情報技術者試験 合格',
   '応用情報技術者試験 合格',
   '情報セキュリティスペシャリスト試験 合格',
   'Oracle Certified Java Programmer, Gold SE 7',
   'AWS Certified Solutions Architect – Professional',
-  'PMP®（Project Management Professional）'
+  'PMP®（Project Management Professional）',
+  'TOEIC 860 点',
+  '実用英語技能検定 準一級'
 ]
 const talks = [
   {
