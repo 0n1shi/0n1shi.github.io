@@ -94,8 +94,8 @@ const certifications = [
   'Oracle Certified Java Programmer, Gold SE 7',
   'AWS Certified Solutions Architect – Professional',
   'PMP®（Project Management Professional）',
-  'TOEIC 860 点',
-  '実用英語技能検定 準一級'
+  '実用英語技能検定 準一級',
+  'TOEIC 860 点'
 ]
 const talks = [
   {
